@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int primeiroNumero = 50,
         segundoNumero = 25;
     
@@ -19,4 +18,3 @@ int main()
 	    
     return (0);
 }
-

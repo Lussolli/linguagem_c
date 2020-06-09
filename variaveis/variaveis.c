@@ -1,17 +1,15 @@
 #include <stdio.h>
 
-int main()
-{
-    int quantidade = 30; // Guarda números inteiros.
-    float total = 50.0; // Armazena números de ponto flutuante.
+int main() {
+    int quantidade = 30; // Guarda nÃºmeros inteiros.
+    float total = 50.0; // Armazena nÃºmeros de ponto flutuante.
     char letra = 'F'; // Armazena um caractere.
-    char nome[8] = "Leonardo"; // Declarada uma variável chamada "nome" que armazena até 8 caracteres.
+    char nome[8] = "Leonardo"; // Declarada uma variÃ¡vel chamada "nome" que armazena atÃ© 8 caracteres.
     
     // Pode-se definir valores constantes.
-    // Lembrar-se de não colocar ponto-e-vírgula no final da declaração de um valor constante.
+    // Lembrar-se de nÃ£o colocar ponto-e-vÃ­rgula no final da declaraÃ§Ã£o de um valor constante.
     #define sobrenome "Lussolli"
     
     printf(sobrenome);
     return (0);
 }
-
