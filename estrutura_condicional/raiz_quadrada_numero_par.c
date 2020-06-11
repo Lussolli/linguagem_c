@@ -3,11 +3,6 @@
 #include <locale.h>
 #include <math.h>
 
-/*
- * Escreva um programa que leia um número positivo inteiro
- * e apresente o quadrado e a raiz quadrada deste número. 
- */
- 
 int main() {
 	setlocale(LC_ALL, "portuguese");
 	
@@ -17,8 +12,10 @@ int main() {
 	scanf("%d", &numero);
 	fflush(stdin);
 	
-	printf("Quadrado: %.2f\n", pow(numero, 2));
-	printf("Raiz quadrada: %.2f", sqrt(numero));
+	if (numero % 2 == 0)
+		printf("Raiz quadrada de %d é %.2f", numero, sqrt(numero));
+	else
+		printf("%d elevado ao quadrado é %.2f", numero, pow(numero, 2));
 	
 	return (0);
 }
